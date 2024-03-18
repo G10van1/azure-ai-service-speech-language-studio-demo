@@ -5,7 +5,7 @@ We tested some of the related services in Azure Speech Studio. Some text and aud
 
 ## Speech to Text
 
-Quickly test your audio on a speech recognition endpoint without writing any code. You can choose the language of the input audio.
+Quickly test your audio on a speech recognition endpoint without writing any code. The audio will be transformed into text. You can choose the language of the input audio.
 
 | Audio                                      | Result                                 | JSON                                    |
 |---------------------------------------------|-----------------------------------------------|-----------------------------------------------|
