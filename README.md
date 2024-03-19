@@ -29,6 +29,8 @@ Below the anallyze sentiment to the input text:
 |---------------------------------------------|-----------------------------------------------|-----------------------------------------------|
 | [Text](Input/Opinion1.txt) | ![Image](Output/ASOpinion1.jpg)<br>![Image](Output/Sentence1Opinion1.jpg)<br>![Image](Output/Sentence2Opinion1.jpg)<br>![Image](Output/Sentence3Opinion1.jpg)<br>![Image](Output/OriginalTextOpinion1.jpg)<br> | [JSON](Output/ResultOpinion1.json) |
 
+The analysis is done individually on each sentence and then the average of the evaluations is calculated, which will be the final result.
+
 ## References
 
 [Explore Speech Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/09-speech.html)
