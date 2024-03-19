@@ -2,11 +2,11 @@
 _______________________________________________________________________________________________________________________________________
 ## Introdução
 
-Testamos alguns dos serviços relacionados no [Azure Speech Studio](https://speech.microsoft.com/) e no [Azure Language Studio](https://language.cognitive.azure.com/). Foram utilizados alguns textos e áudios para gerar o resultado conforme as tabelas apresentadas em cada teste de funcionalidade.
+Testamos alguns dos serviços relacionados no [Azure AI Speech Studio](https://speech.microsoft.com/) e no [Azure AI Language Studio](https://language.cognitive.azure.com/). Foram utilizados alguns textos e áudios para gerar o resultado conforme as tabelas apresentadas em cada teste de funcionalidade.
 
 ## Fala para texto no Speech Studio
 
-Usando o [Azure Speech Studio](https://speech.microsoft.com/), teste rapidamente seu áudio em um ponto de extremidade de reconhecimento de fala sem escrever nenhum código. O áudio será transformado em texto. Você pode escolher o idioma do áudio de entrada.
+Usando o [Azure AI Speech Studio](https://speech.microsoft.com/), teste rapidamente seu áudio em um ponto de extremidade de reconhecimento de fala sem escrever nenhum código. O áudio será transformado em texto. Você pode escolher o idioma do áudio de entrada.
 
 | Audio                                      | Resultado                                 | JSON                                    |
 |---------------------------------------------|-----------------------------------------------|-----------------------------------------------|
@@ -14,7 +14,7 @@ Usando o [Azure Speech Studio](https://speech.microsoft.com/), teste rapidamente
 
 ## Analise sentimentos e opiniões no Language Studio
 
-Usando o [Azure Language Studio](https://language.cognitive.azure.com/) e o recurso Análise de Sentimento da API Text Analytics, que fornece rótulos de sentimento (como "negativo", "neutro" e "positivo") e suas pontuações de sentimento em cada frase e em relação a todo o documento. Você também pode enviar solicitações de Opinion Mining usando o endpoint Sentiment Analysis, que fornece informações granulares sobre as opiniões relacionadas às palavras (como atributos de produtos ou serviços) no texto.
+Usando o [Azure AI Language Studio](https://language.cognitive.azure.com/) e o recurso Análise de Sentimento da API Text Analytics, que fornece rótulos de sentimento (como "negativo", "neutro" e "positivo") e suas pontuações de sentimento em cada frase e em relação a todo o documento. Você também pode enviar solicitações de Opinion Mining usando o endpoint Sentiment Analysis, que fornece informações granulares sobre as opiniões relacionadas às palavras (como atributos de produtos ou serviços) no texto.
 
 Abaixo segue a análise do sentimento do seguinte texto:
 
