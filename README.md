@@ -15,6 +15,16 @@ Using [Azure Speech Studio](https://speech.microsoft.com/), quickly test your au
 
 Using [Azure Language Studio](https://language.cognitive.azure.com/) and the Text Analytics API's Sentiment Analysis feature, which provides sentiment labels (such as "negative", "neutral" and "positive") and confidence scores at the sentence and document-level. You can also send Opinion Mining requests using the Sentiment Analysis endpoint, which provides granular information about the opinions related to words (such as the attributes of products or services) in the text.
 
+Below the anallyze sentiment to the input text:
+
+```
+ Tired hotel with poor service
+ The Royal Hotel, London, United Kingdom
+ 5/6/2018
+ This is an old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to 
+ come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk.
+```
+
 | Text                                      | Result                                 | JSON                                    |
 |---------------------------------------------|-----------------------------------------------|-----------------------------------------------|
 | [Text](Input/Opinion1.txt) | ![Image](Output/ASOpinion1.jpg)<br>![Image](Output/Sentence1Opinion1.jpg)<br>![Image](Output/Sentence2Opinion1.jpg)<br>![Image](Output/Sentence3Opinion1.jpg)<br>![Image](Output/OriginalTextOpinion1.jpg)<br> | [JSON](Output/ResultOpinion1.json) |
